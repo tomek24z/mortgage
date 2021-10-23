@@ -1,0 +1,15 @@
+{
+  "serviceName": "montgage",
+  "containers": {
+    "montgage-container": {
+      "image": ":montgage.latest.1",
+      "ports": {
+        "8080": "HTTP"
+      }
+    }
+  },
+  "publicEndpoint": {
+    "containerName": "montgage-container",
+    "containerPort": 8080
+  }
+}
